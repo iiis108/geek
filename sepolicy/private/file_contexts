@@ -1,0 +1,4 @@
+
+/system/bin/binsystemdemo                               u:object_r:binsystemdemo_exec:s0
+/system_ext/bin/binsystemextdemo                        u:object_r:binsystemextdemo_exec:s0
+

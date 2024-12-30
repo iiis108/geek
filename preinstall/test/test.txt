@@ -1,0 +1,2 @@
+preinstall test!!!
+预置文件测试！！！

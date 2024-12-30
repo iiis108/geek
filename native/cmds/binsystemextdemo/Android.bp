@@ -1,0 +1,35 @@
+cc_binary {
+	//指定编译目标名称
+    name: "binsystemextdemo",
+
+	//指定源码文件
+    srcs: [
+        "main.cpp",
+    ],
+
+    //指定需要的本地模块头文件路径
+    local_include_dirs: [
+
+    ],
+    
+    //指定需要的外部模块头文件路径
+    include_dirs: [
+        
+    ],
+
+    //导出库的头文件路径
+    export_shared_lib_headers: [
+    ],
+
+    //指定依赖的库
+    shared_libs: [
+        "liblog",
+        "libutils",
+    ],
+
+    //指定编译到那个镜像，默认就是system
+    system_ext_specific: true, //编译到system_ext镜像
+    //vendor: true, //编译到vendor镜像
+
+    init_rc: ["binsystemextdemo.rc"],
+}

@@ -1,0 +1,4 @@
+service binsystemextdemo /system_ext/bin/binsystemextdemo
+    class main
+    user root
+    group root

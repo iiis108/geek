@@ -1,0 +1,4 @@
+service binvendordemo /vendor/bin/binvendordemo
+    class main
+    user root
+    group root

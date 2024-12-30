@@ -1,0 +1,4 @@
+service binsystemdemo /system/bin/binsystemdemo
+    class main
+    user root
+    group root
